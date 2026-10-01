@@ -1,4 +1,4 @@
-# SAP-ABAP-on-Cloud
+# Company Sales
 ABAP on Cloud 
 
 # A simply analytic application to track E-commerce company's sales:
