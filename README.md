@@ -98,15 +98,3 @@ src/
   zc_ats_gs_tot_sales.*           Analytical consumption query
   zcl_ats_gs_datagenerator.*      Demo data generator
 ```
-
-## Notes and possible improvements
-
-- The project uses custom `ZATS_GS_*` persistence tables; it does not read existing SAP e-commerce or sales application tables.
-- CDS entities currently specify `@AccessControl.authorizationCheck: #NOT_REQUIRED`. Add suitable access controls before using business data in a shared or production system.
-- Validate aggregation behavior for currency and unit fields before analyzing data across multiple currencies or units.
-- Consider separating data generation from destructive reset behavior, and add explicit safeguards or a dedicated reset option.
-- Add a deployable Fiori or analytics front end if you want the repository to demonstrate the complete user experience as well as the CDS model.
-
-## Author
-
-Gurunishal Saravanan
